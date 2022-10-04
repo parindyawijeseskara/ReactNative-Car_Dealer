@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
   signUpText:{
     color:'grey',
   },
+  
   textButton:{
     width:'100%',
     display:'flex',
