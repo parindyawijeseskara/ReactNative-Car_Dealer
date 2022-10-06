@@ -24,10 +24,10 @@ export default function SignIn({navigation}) {
             <View style = {styles.formView}>
               <TextInput placeholder={"Email Address*"} placeholderTextColor={"#fff"}style = {styles.textInput}/>
               <TextInput placeholder={"Password*"}  secureTextEntry={true} placeholderTextColor={"#fff"}style = {styles.textInput}/>
-              <TouchableOpacity style={styles.button}>
+              <TouchableOpacity style={styles.button} onPress={()=>{navigation.navigate("MainScreen")}}>
                 <Text style={styles.buttonText}>Sign In</Text>
               </TouchableOpacity>
-            </View>
+            </View>   
 
             <TouchableOpacity style={styles.textButton} onPress={navigate}>
               <Text style={styles.signUpText}>

@@ -11,8 +11,9 @@ export default function SignUp() {
 
         <ScrollView style ={styles.bottomView}>
             <Text style={styles.heading}>
-              Welcome{'\n'}
-              back
+              {/* Welcome{'\n'}
+              back */}
+              Create Account
             </Text>
 
             <View style = {styles.formView}>
@@ -67,7 +68,7 @@ const styles = StyleSheet.create({
   },
   heading:{
     color:'#fff',
-    fontSize: 40,
+    fontSize: 32,
     fontWeight:'bold',
     marginLeft:30,
     marginTop:60
